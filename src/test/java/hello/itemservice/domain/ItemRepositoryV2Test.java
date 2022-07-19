@@ -21,7 +21,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @Transactional
 @SpringBootTest
-class ItemRepositoryTest {
+class ItemRepositoryV2Test {
 
     @Autowired
     ItemRepository itemRepository;
